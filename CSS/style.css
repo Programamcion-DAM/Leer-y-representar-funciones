@@ -1,0 +1,42 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background: rgb(30,30,30);
+}
+canvas{
+  display: block;
+}
+
+#inputBody{
+  text-align: center;
+}
+
+#canvasConteiner{
+  text-align: center;
+  margin: 20px;
+  display: inline-block;
+}
+
+#canvasDraw{
+  border: 1px solid white;
+  background: white;
+}
+
+#ecuacionBox{
+  width: 250px;
+  height: 30px;
+  position: relative;
+  top: -190px;
+}
+
+#button{
+  background: #37E378;
+  width: 160px;
+  height: 40px;
+  cursor: pointer;
+  position: relative;
+  top: -130px;
+  left: -260px;
+  border: none;
+  font-size: 15px;
+}
